@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  background: #f4f4f9;
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.header {
+  background: #333;
+  color: #fff;
+  padding: 15px 0;
+}
+
+.header .logo {
+  float: left;
+  margin-left: 20px;
+}
+
+.header nav {
+  float: right;
+  margin-right: 20px;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background: #444;
+  color: #fff;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h2 span {
+  color: #ff9800;
+}
+
+.about, .skills, .experience, .projects, .contact {
+  padding: 40px 0;
+  background: #fff;
+  margin-bottom: 10px;
+}
+
+.skills .skill {
+  margin: 15px 0;
+}
+
+.bar {
+  width: 100%;
+  background: #ddd;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.fill {
+  height: 20px;
+  text-align: right;
+  padding-right: 10px;
+  color: #fff;
+}
+
+/* Skill Colors */
+.java { width: 85%; background: #673ab7; }
+.sql { width: 75%; background: #2196f3; }
+.frontend { width: 90%; background: #03a9f4; }
+.spring { width: 80%; background: #4caf50; }
+.jpa { width: 75%; background: #ff9800; }
+
+.projects .project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.project-card {
+  background: #fafafa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.experience-card {
+  background: #fafafa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin-top: 15px;
+}
+
+.contact p {
+  margin: 10px 0;
+}
+
+.footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+}
